@@ -1,3 +1,10 @@
+# Archivos de compilación y temporales
 /build/
-/*.o
+*.o
+a.out
+
+# Archivos temporales del editor de texto
 *~
+
+# Scripts de automatización
+subir_portafolio.sh
