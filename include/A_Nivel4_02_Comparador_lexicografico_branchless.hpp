@@ -1,0 +1,8 @@
+#ifndef PORTAFOLIO_CPP_A_NIVEL4_02_COMPARADOR_LEXICOGRAFICO_BRANCHLESS_HPP
+#define PORTAFOLIO_CPP_A_NIVEL4_02_COMPARADOR_LEXICOGRAFICO_BRANCHLESS_HPP
+
+// Enunciado: Comparar dos palabras de 4 letras empaquetadas en un entero, sin branching.
+// Autor: Marvin Cifuentes
+// TODO: declara aquí lo necesario para este ejercicio.
+
+#endif // PORTAFOLIO_CPP_A_NIVEL4_02_COMPARADOR_LEXICOGRAFICO_BRANCHLESS_HPP

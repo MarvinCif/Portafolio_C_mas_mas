@@ -1,0 +1,8 @@
+#ifndef PORTAFOLIO_CPP_N4_19_ARCHIVOS_BINARIOS_HPP
+#define PORTAFOLIO_CPP_N4_19_ARCHIVOS_BINARIOS_HPP
+
+// Enunciado: Escribir y leer structs completos en modo binario.
+// Autor: Marvin Cifuentes
+// TODO: declara aquí lo necesario para este ejercicio.
+
+#endif // PORTAFOLIO_CPP_N4_19_ARCHIVOS_BINARIOS_HPP
