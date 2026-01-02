@@ -1,0 +1,6 @@
+#ifndef EJERCICIO_03_TIPOS_DATOS_HPP
+#define EJERCICIO_03_TIPOS_DATOS_HPP
+
+void Ejercicio_3_TiposDeDatos();
+
+#endif // EJERCICIO_03_TIPOS_DATOS_HPP

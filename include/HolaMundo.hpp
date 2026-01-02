@@ -1,0 +1,6 @@
+#ifndef EJERCICIO_01_HOLAMUNDO_HPP
+#define EJERCICIO_01_HOLAMUNDO_HPP
+
+void Ejercicio_1_HolaMundo();
+
+#endif // EJERCICIO_01_HOLAMUNDO_HPP
