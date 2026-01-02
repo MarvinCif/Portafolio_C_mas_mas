@@ -7,19 +7,22 @@ Portafolio-C++ es un repositorio público que recopila ejercicios en C++ organiz
 Lista de ejercicios (planeados)
 ------------------------------
 
+Leyenda
+- **[COMPLETADO]**: ya implementado y compilable.
+
 Nivel 1: Fundamentos (Variables, E/S, Condicionales)
-- Hola Mundo: Imprimir "Hola Mundo" en la consola.
-- Suma de dos números: Pedir dos enteros al usuario y mostrar la suma.
-- Tipos de datos: Imprimir el tamaño en bytes de int, float, double y char usando sizeof.
-- Intercambio de variables: Intercambiar el valor de dos variables usando una variable temporal.
-- Intercambio sin temporal: Intercambiar dos variables sin usar una tercera variable (aritmética o XOR).
-- Par o Impar: Determinar si un número ingresado es par o impar.
-- Mayor de dos: Comparar dos números e imprimir el mayor.
-- Mayor de tres: Comparar tres números e imprimir el mayor.
-- Año bisiesto: Calcular si un año ingresado es bisiesto.
-- Calculadora simple: Usar switch para realizar suma, resta, multiplicación o división según la elección del usuario.
-- Área de un círculo: Calcular el área dado el radio (usando constante PI).
-- Conversor de temperatura: Convertir grados Celsius a Fahrenheit y viceversa.
+- **[COMPLETADO]** Hola Mundo: Imprimir "Hola Mundo" en la consola.
+- **[COMPLETADO]** Suma de dos números: Pedir dos enteros al usuario y mostrar la suma.
+- **[COMPLETADO]** Tipos de datos: Imprimir el tamaño en bytes de int, float, double y char usando sizeof.
+- **[COMPLETADO]** Intercambio de variables: Intercambiar el valor de dos variables usando una variable temporal.
+- **[COMPLETADO]** Intercambio sin temporal: Intercambiar dos variables sin usar una tercera variable (aritmética o XOR).
+- **[COMPLETADO]** Par o Impar: Determinar si un número ingresado es par o impar.
+- **[COMPLETADO]** Mayor de dos: Comparar dos números e imprimir el mayor.
+- **[COMPLETADO]** Mayor de tres: Comparar tres números e imprimir el mayor.
+- **[COMPLETADO]** Año bisiesto: Calcular si un año ingresado es bisiesto.
+- **[COMPLETADO]** Calculadora simple: Usar switch para realizar suma, resta, multiplicación o división según la elección del usuario.
+- **[COMPLETADO]** Área de un círculo: Calcular el área dado el radio (usando constante PI).
+- **[COMPLETADO]** Conversor de temperatura: Convertir grados Celsius a Fahrenheit y viceversa.
 - Verificar vocal: Pedir un carácter y determinar si es una vocal o consonante.
 - Número positivo/negativo/cero: Clasificar un número ingresado.
 - Días de la semana: Dado un número del 1 al 7, imprimir el día correspondiente.
