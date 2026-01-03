@@ -1,0 +1,12 @@
+{
+  "name": "Portafolio-C++ (Codespaces)",
+  "image": "mcr.microsoft.com/devcontainers/cpp:default",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools"
+      ]
+    }
+  },
+  "postCreateCommand": "chmod +x menu.sh"
+}

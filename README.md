@@ -1,4 +1,14 @@
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/)
+
 # Portafolio-C++
+
+## Ejecutar ejercicios en Codespaces (menu interactivo)
+
+En la terminal:
+
+```sh
+./menu.sh
+```
 
 Propósito
 ---------
