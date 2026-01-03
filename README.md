@@ -211,3 +211,4 @@ Nivel 4: Objetos y Algoritmos Avanzados (Abstracción sin Costo)
 	- Reto: Iterar un `std::vector<int>`, encontrando el mínimo y máximo simultáneamente, actualizando `min_val` y `max_val` sin usar `if (val < min_val)`.
 	- Pista: `min(a, b)` se puede reescribir aritméticamente: `b + ((a - b) & ((a - b) >> 31))`.
 
+.
