@@ -1,0 +1,11 @@
+# Ignore build artifacts and local runtime
+/build/
+*.o
+a.out
+*~
+subir_portafolio.sh
+CMakeLists.txt
+
+# Ignore devcontainer and runtime binary (run_app)
+/.devcontainer/
+run_app
