@@ -3,6 +3,5 @@
 
 // Enunciado: Dado un entero (ej: 123), imprimirlo al revés (321).
 // Autor: Marvin Cifuentes
-// TODO: declara aquí lo necesario para este ejercicio.
 
 #endif // PORTAFOLIO_CPP_N2_06_INVERTIR_NUMERO_HPP

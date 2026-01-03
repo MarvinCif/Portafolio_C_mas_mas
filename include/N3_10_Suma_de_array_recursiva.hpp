@@ -3,6 +3,5 @@
 
 // Enunciado: Sumar elementos de un arreglo usando recursión.
 // Autor: Marvin Cifuentes
-// TODO: declara aquí lo necesario para este ejercicio.
 
 #endif // PORTAFOLIO_CPP_N3_10_SUMA_DE_ARRAY_RECURSIVA_HPP

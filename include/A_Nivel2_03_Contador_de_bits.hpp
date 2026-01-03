@@ -3,6 +3,5 @@
 
 // Enunciado: Contar cuántos bits en '1' tiene un entero de 32 bits.
 // Autor: Marvin Cifuentes
-// TODO: declara aquí lo necesario para este ejercicio.
 
 #endif // PORTAFOLIO_CPP_A_NIVEL2_03_CONTADOR_DE_BITS_HPP

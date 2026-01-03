@@ -3,6 +3,5 @@
 
 // Enunciado: Encontrar el elemento más grande de un arreglo.
 // Autor: Marvin Cifuentes
-// TODO: declara aquí lo necesario para este ejercicio.
 
 #endif // PORTAFOLIO_CPP_N2_12_MAXIMO_EN_ARRAY_HPP

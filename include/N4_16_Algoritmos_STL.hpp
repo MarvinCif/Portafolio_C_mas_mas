@@ -3,6 +3,5 @@
 
 // Enunciado: Usar std::sort, std::find, std::accumulate.
 // Autor: Marvin Cifuentes
-// TODO: declara aquí lo necesario para este ejercicio.
 
 #endif // PORTAFOLIO_CPP_N4_16_ALGORITMOS_STL_HPP

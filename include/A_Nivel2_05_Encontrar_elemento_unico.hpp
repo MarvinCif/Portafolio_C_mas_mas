@@ -3,6 +3,5 @@
 
 // Enunciado: En un arreglo donde todos se repiten dos veces excepto uno, encontrar el único (O(N), O(1)).
 // Autor: Marvin Cifuentes
-// TODO: declara aquí lo necesario para este ejercicio.
 
 #endif // PORTAFOLIO_CPP_A_NIVEL2_05_ENCONTRAR_ELEMENTO_UNICO_HPP

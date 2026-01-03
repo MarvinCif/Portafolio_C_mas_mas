@@ -3,6 +3,5 @@
 
 // Enunciado: Calcular x^y sin usar pow().
 // Autor: Marvin Cifuentes
-// TODO: declara aquí lo necesario para este ejercicio.
 
 #endif // PORTAFOLIO_CPP_N3_01_FUNCION_POTENCIA_HPP

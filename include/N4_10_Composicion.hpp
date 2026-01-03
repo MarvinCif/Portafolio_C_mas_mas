@@ -3,6 +3,5 @@
 
 // Enunciado: Clase Coche que tiene un objeto Motor.
 // Autor: Marvin Cifuentes
-// TODO: declara aquí lo necesario para este ejercicio.
 
 #endif // PORTAFOLIO_CPP_N4_10_COMPOSICION_HPP
