@@ -1,3 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Diagrama de niveles">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1d3557" />
+    </marker>
+    <style>
+      .node { rx:10; ry:10; stroke-width:2 }
+      .label { font-family: "Fira Code", "DejaVu Sans Mono", monospace; font-size:14px; font-weight:700; }
+      .small { font-size:12px; font-weight:600 }
+    </style>
+  </defs>
+
+  <!-- Nodes -->
+  <g transform="translate(40,30)">
+    <rect class="node" x="0" y="0" width="160" height="60" fill="#ffb347" stroke="#cc5500" />
+    <text x="80" y="36" text-anchor="middle" alignment-baseline="middle" class="label" fill="#0b1a1e">01. Fundamentos</text>
+  </g>
+
+  <g transform="translate(240,30)">
+    <rect class="node" x="0" y="0" width="160" height="60" fill="#90be6d" stroke="#3c6e47" />
+    <text x="80" y="36" text-anchor="middle" class="label" fill="#0b1a0f">02. Control de Flujo</text>
+  </g>
+
+  <g transform="translate(440,30)">
+    <rect class="node" x="0" y="0" width="200" height="70" fill="#f94144" stroke="#7f0000" />
+    <text x="100" y="28" text-anchor="middle" class="label" fill="#fceee9">03. Memoria</text>
+    <text x="100" y="48" text-anchor="middle" class="small" fill="#fceee9">&amp; Punteros</text>
+  </g>
+
+  <g transform="translate(700,10)">
+    <rect class="node" x="0" y="0" width="180" height="60" fill="#577590" stroke="#1d3557" />
+    <text x="90" y="36" text-anchor="middle" class="label" fill="#f1f1f1">04. POO &amp; STL</text>
+  </g>
+
+  <g transform="translate(700,130)">
+    <rect class="node" x="0" y="0" width="180" height="60" fill="#00a8e8" stroke="#004e66" />
+    <text x="90" y="36" text-anchor="middle" class="label" fill="#e9f0f7">05. Arquitectura</text>
+  </g>
+
+  <g transform="translate(920,70)">
+    <rect class="node" x="0" y="0" width="140" height="60" fill="#8ecae6" stroke="#1d3557" />
+    <text x="70" y="36" text-anchor="middle" class="label" fill="#05070a">06. C++ Moderno</text>
+  </g>
+
+  <!-- Links -->
+  <path d="M200 60 L240 60" fill="none" stroke="#f08a5d" stroke-width="4" marker-end="url(#arrow)" />
+  <path d="M400 60 L440 60" fill="none" stroke="#f08a5d" stroke-width="4" marker-end="url(#arrow)" />
+  <path d="M560 60 L700 40" fill="none" stroke="#393e46" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M560 60 L700 150" fill="none" stroke="#393e46" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M880 40 L920 100" fill="none" stroke="#3a86ff" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M880 160 L920 100" fill="none" stroke="#3a86ff" stroke-width="3" marker-end="url(#arrow)" />
+
+  <!-- Edge labels placed as simple text (fixed positions) -->
+  <text x="640" y="48" class="small" fill="#393e46" text-anchor="middle">Standard</text>
+  <text x="640" y="180" class="small" fill="#393e46" text-anchor="middle">Low-Level</text>
+
+  <!-- Optional small caption -->
+  <text x="55" y="270" class="small" fill="#333">Diagrama de niveles — generado para README</text>
+</svg>
 <svg id="export-svg" width="100%" xmlns="http://www.w3.org/2000/svg" class="flowchart" style="max-width: 1209.044677734375px;" viewBox="0 0 1209.044677734375 240.73214721679688" role="graphics-document document" aria-roledescription="flowchart-v2"><style xmlns="http://www.w3.org/1999/xhtml">/* Copyright 2019 The Recursive Project Authors (github.com/arrowtype/recursive)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
