@@ -51,7 +51,6 @@ graph TD;
   linkStyle 4 stroke:#3a86ff,stroke-width:2px;
   linkStyle 5 stroke:#0b1a2b,stroke-width:2px;
 ```
-```
 
 ## `Ejercicios`
 
@@ -64,8 +63,6 @@ Leyenda
 
 <details>
   <summary><h3><strong><code>01 :: Fundamentos</code></strong></h3></summary>
-
-<div align="center">
 
 | Status | Exercise | Topic | Source | Live Demo |
 |---|---|---|---|---|
@@ -90,14 +87,10 @@ Leyenda
 | ◻ | ASCII | casts, tabla ASCII | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_19_ASCII.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
 | ◻ | Validación de edad | condicionales | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_20_Validacion_de_edad.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
 
-</div>
-
 </details>
 
 <details>
   <summary><h3><strong><code>02 :: Control de Flujo</code></strong></h3></summary>
-
-<div align="center">
 
 | Status | Exercise | Topic | Source | Live Demo |
 |---|---|---|---|---|
@@ -121,8 +114,6 @@ Leyenda
 | ◻ | Palíndromo (String) | strings | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_18_Palindromo_string.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
 | ◻ | Contar vocales (String) | strings | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_19_Contar_vocales_string.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
 | ◻ | Concatenar cadenas | strings | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_20_Concatenar_cadenas.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
-
-</div>
 
 </details>
 
@@ -157,8 +148,6 @@ Leyenda
 <details>
   <summary><h3><strong><code>04 :: POO & STL</code></strong></h3></summary>
 
-<div align="center">
-
 | Status | Exercise | Topic | Source | Live Demo |
 |---|---|---|---|---|
 | ◻ | Clase Rectángulo | clases | [View Code](./src/Nivel4_POO_Y_STL/N4_01_Clase_rectangulo.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
@@ -182,14 +171,10 @@ Leyenda
 | ◻ | Archivos Binarios | `fstream` binary | [View Code](./src/Nivel4_POO_Y_STL/N4_19_Archivos_binarios.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
 | ◻ | Manejo de Excepciones | `try/catch` | [View Code](./src/Nivel4_POO_Y_STL/N4_20_Manejo_de_excepciones.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
 
-</div>
-
 </details>
 
 <details>
   <summary><h3><strong><code>05 :: C++ Moderno</code></strong></h3></summary>
-
-<div align="center">
 
 | Status | Exercise | Topic | Source | Live Demo |
 |---|---|---|---|---|
@@ -214,15 +199,11 @@ Leyenda
 | ◻ | Parser JSON simple | parsing | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_19_Parser_JSON_simple.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
 | ◻ | Socket Programming Básico | networking | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_20_Socket_programming_basico.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
 
-</div>
-
 </details>
 
 
 <details>
   <summary><h3><strong><code>Architecture :: Bit-Hacking</code></strong></h3></summary>
-
-<div align="center">
 
 | Status | Challenge | Constraint | Complexity $O(n)$ | Live Demo |
 |---|---|---|---|---|
@@ -246,7 +227,5 @@ Leyenda
 | ◻ | UTF-8 Byte Length — [View Code](./src/Arquitectura/Nivel4_Objetos_Y_Algoritmos_Avanzados_Abstraccion_Sin_Costo/A_Nivel4_03_UTF_8_byte_length.cpp) | sin `switch`/`if` encadenados | $O(1)$ | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
 | ◻ | Filtro de Bloom — [View Code](./src/Arquitectura/Nivel4_Objetos_Y_Algoritmos_Avanzados_Abstraccion_Sin_Costo/A_Nivel4_04_Filtro_de_Bloom.cpp) | `k` hashes | $O(1)$ | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
 | ◻ | Min/Max Branchless en Vector — [View Code](./src/Arquitectura/Nivel4_Objetos_Y_Algoritmos_Avanzados_Abstraccion_Sin_Costo/A_Nivel4_05_Minimo_maximo_branchless.cpp) | sin `if` en actualización | $O(n)$ | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
-
-</div>
 
 </details>
