@@ -23,37 +23,9 @@ Portafolio-C++ es un repositorio público que recopila ejercicios en C++ organiz
 También se incluyen enlaces a OnlineGDB para facilitar la ejecución rápida de los ejercicios desde el navegador.
 
 
-```mermaid
-%%{init: {'theme': 'base', 'flowchart': {'useMaxWidth': true, 'nodeSpacing': 10, 'rankSpacing': 20}, 'themeVariables': {
-  'fontFamily': '"Fira Code", "DejaVu Sans Mono", monospace',
-  'fontSize': '10px',
-  'nodePadding': '4',
-  'primaryColor': '#ff6f61',
-  'edgeLabelBackground': '#0b1a2b',
-  'edgeLabelColor': '#f1faee',
-  'clusterBkg': '#1d3557',
-  'tertiaryColor': '#2a9d8f'
-}}}%%
-graph LR;
-  A[01. Fundamentos] --> B[02. Control de Flujo];
-  B --> C{"03. Memoria & Punteros"};
-  C -->|Standard| D["04. POO & STL"];
-  C -->|Low-Level| E["05. Arquitectura & Bit-Hacking"];
-  D --> F[06. C++ Moderno];
-  E --> F;
-  style A fill:#ffb347,stroke:#cc5500,stroke-width:2px,color:#0b1a1e
-  style B fill:#90be6d,stroke:#3c6e47,stroke-width:2px,color:#0b1a0f
-  style C fill:#f94144,stroke:#7f0000,stroke-width:2px,color:#fceee9
-  style D fill:#577590,stroke:#1d3557,stroke-width:2px,color:#f1f1f1
-  style E fill:#00a8e8,stroke:#004e66,stroke-width:2px,color:#e9f0f7
-  style F fill:#8ecae6,stroke:#1d3557,stroke-width:2px,color:#05070a
-  linkStyle 0 stroke:#f08a5d,stroke-width:2px;
-  linkStyle 1 stroke:#f08a5d,stroke-width:2px;
-  linkStyle 2 stroke:#393e46,stroke-width:2px;
-  linkStyle 3 stroke:#393e46,stroke-width:2px;
-  linkStyle 4 stroke:#3a86ff,stroke-width:2px;
-  linkStyle 5 stroke:#0b1a2b,stroke-width:2px;
-```
+<p align="center">
+  <img src="mermaid.svg" alt="Diagrama de niveles" style="max-width:100%; height:auto;">
+</p>
 
 ## `Ejercicios`
 
