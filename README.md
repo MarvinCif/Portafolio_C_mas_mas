@@ -24,7 +24,7 @@ También se incluyen enlaces a OnlineGDB para facilitar la ejecución rápida de
 
 
 <p align="center">
-  <img src="mermaid.svg" alt="Diagrama de niveles" style="max-width:100%; height:auto;">
+  <img src="Diagrama.svg" alt="Diagrama de niveles" style="max-width:100%; height:auto;">
 </p>
 
 ## `Ejercicios`
