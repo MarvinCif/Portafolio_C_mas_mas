@@ -22,7 +22,6 @@ Nota: `menu.sh` se proporciona con permisos ejecutables por defecto en Codespace
 ## `Propósito`
 Portafolio-C++ es un repositorio público que recopila ejercicios en C++ organizados por niveles de aprendizaje. El objetivo es mostrar implementaciones pedagógicas y autocontenidas de problemas clásicos y modernos a medida que se avanza en el dominio del lenguaje.
 
-<div style="max-width:620px">
 ```mermaid
 %%{init: {'themeVariables': {'fontSize': '12px', 'nodePadding': '6'}}}%%
 graph TD;
@@ -33,7 +32,6 @@ graph TD;
   D --> F[06. C++ Moderno];
   E --> F;
 ```
-</div>
 
 ## `< Roadmap :: Ejercicios />`
 
