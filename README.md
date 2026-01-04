@@ -24,7 +24,7 @@ También se incluyen enlaces a OnlineGDB para facilitar la ejecución rápida de
 
 
 ```mermaid
-%%{init: {'theme': 'base', 'flowchart': {'useMaxWidth': true, 'nodeSpacing': 10, 'rankSpacing': 15}, 'themeVariables': {
+%%{init: {'theme': 'base', 'flowchart': {'useMaxWidth': true, 'nodeSpacing': 5, 'rankSpacing': 8}, 'themeVariables': {
   'fontFamily': '"Fira Code", "DejaVu Sans Mono", monospace',
   'fontSize': '9px',
   'nodePadding': '3',
