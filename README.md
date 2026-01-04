@@ -31,10 +31,13 @@ graph TD;
   E --> F;
 ```
 
-## `< Roadmap :: Ejercicios />`
+## `Ejercicios`
 
 Leyenda
+
+
 [x] Completado
+
 [ ] Pendiente
 
 <details>
