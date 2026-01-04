@@ -16,6 +16,207 @@ Propósito
 ---------
 Portafolio-C++ es un repositorio público que recopila ejercicios en C++ organizados por niveles de aprendizaje. El objetivo es mostrar implementaciones pedagógicas y autocontenidas de problemas clásicos y modernos a medida que se avanza en el dominio del lenguaje.
 
+```mermaid
+graph TD;
+  A[Nivel 1: Fundamentos] --> B[Nivel 2: Control de Flujo];
+  B --> C{Nivel 3: Memoria y Punteros};
+  C -->|Ruta Estándar| D[Nivel 4: POO y STL];
+  C -->|Ruta Hacker| E[Arquitectura y Bits];
+  D --> F[Nivel 5: C++ Moderno];
+  E --> F;
+```
+
+<!-- ESTRUCTURA DE ACORDEÓN (COLLAPSIBLE SECTIONS) -->
+
+<details open>
+<summary><h2>🟢 Nivel 1: Fundamentos</h2></summary>
+
+| Estado | Ejercicio | Conceptos | Acción |
+|---:|---|---|:---|
+| ✅ | **Hola Mundo** | `cout`, E/S básica | [📂 Ver Código](./nivel1/hola_mundo.cpp) |
+| ✅ | **Suma de dos números** | `cin`, `cout`, aritmética | [📂 Ver Código](./nivel1/suma_dos_numeros.cpp) |
+| ✅ | **Tipos de datos** | `sizeof`, `int`, `float`, `double`, `char` | [📂 Ver Código](./nivel1/tipos_de_datos.cpp) |
+| ✅ | **Intercambio de variables (temporal)** | asignación, variable temporal | [📂 Ver Código](./nivel1/intercambio_temporal.cpp) |
+| ✅ | **Intercambio sin temporal** | aritmética, XOR | [📂 Ver Código](./nivel1/intercambio_sin_temporal.cpp) |
+| ✅ | **Par o Impar** | operador `%`, condición | [📂 Ver Código](./nivel1/par_o_impar.cpp) |
+| ✅ | **Mayor de dos** | condicionales `if` | [📂 Ver Código](./nivel1/mayor_de_dos.cpp) |
+| ✅ | **Mayor de tres** | anidamiento de condicionales | [📂 Ver Código](./nivel1/mayor_de_tres.cpp) |
+| ✅ | **Año bisiesto** | lógica de años, condicionales | [📂 Ver Código](./nivel1/anio_bisiesto.cpp) |
+| ✅ | **Calculadora simple** | `switch`, operaciones básicas | [📂 Ver Código](./nivel1/calculadora_simple.cpp) |
+| ✅ | **Área de un círculo** | PI, fórmula área, `double` | [📂 Ver Código](./nivel1/area_circulo.cpp) |
+| ✅ | **Conversor de temperatura** | conversión Celsius↔Fahrenheit | [📂 Ver Código](./nivel1/conversor_temperatura.cpp) |
+| 🚧 | **Verificar vocal** | `char`, comparaciones |  |
+| 🚧 | **Número positivo/negativo/cero** | comparaciones |  |
+| 🚧 | **Días de la semana** | `switch` o arrays |  |
+| 🚧 | **Cálculo de descuento** | aritmética condicional |  |
+| 🚧 | **Divisibilidad** | operador `%` |  |
+| 🚧 | **Ecuación cuadrática** | resolución de $ax^2 + bx + c = 0$ |  |
+| 🚧 | **ASCII** | código ASCII, `int(char)` |  |
+| 🚧 | **Validación de edad** | comparaciones lógicas |  |
+
+</details>
+
+<details>
+<summary><h2>🟡 Nivel 2: Control de Flujo y Arreglos</h2></summary>
+
+| Estado | Ejercicio | Conceptos | Acción |
+|---:|---|---|:---|
+| 🚧 | **Imprimir 1 al 100** | `for` loop |  |
+| 🚧 | **Suma de naturales** | bucles, acumulador |  |
+| 🚧 | **Factorial** | bucle, $n!$ |  |
+| 🚧 | **Tabla de multiplicar** | bucles anidados |  |
+| 🚧 | **Serie Fibonacci** | bucles, secuencia |  |
+| 🚧 | **Invertir número** | operaciones aritméticas |  |
+| 🚧 | **Suma de dígitos** | módulo y división |  |
+| 🚧 | **Números Primos** | algoritmos de prueba |  |
+| 🚧 | **Primos en rango** | criba/optimización |  |
+| 🚧 | **Patrón de asteriscos** | bucles anidados, formato |  |
+| 🚧 | **Pirámide** | alineamiento, bucles |  |
+| 🚧 | **Máximo en Array** | recorrido, comparación |  |
+| 🚧 | **Mínimo en Array** | recorrido, comparación |  |
+| 🚧 | **Promedio** | sumatoria, división |  |
+| 🚧 | **Buscar elemento** | búsqueda lineal |  |
+| 🚧 | **Contar ocurrencias** | contador en bucle |  |
+| 🚧 | **Invertir Array** | swaps in-place |  |
+| 🚧 | **Palíndromo (String)** | comparación, índices |  |
+| 🚧 | **Contar vocales (String)** | iteración, comparaciones |  |
+| 🚧 | **Concatenar cadenas** | manipulación manual de strings |  |
+
+</details>
+
+<details>
+<summary><h2>🔴 Nivel 3: Modularidad y Memoria</h2></summary>
+
+| Estado | Ejercicio | Conceptos | Acción |
+|---:|---|---|:---|
+| 🚧 | **Función Potencia** | exponenciación, bucles |  |
+| 🚧 | **Paso por Valor vs Referencia** | parámetros, referencias |  |
+| 🚧 | **Punteros Básicos** | `int*`, dirección, desreferencia |  |
+| 🚧 | **Aritmética de Punteros** | punteros y arrays |  |
+| 🚧 | **Swap con Punteros** | punteros, manipulación de memoria |  |
+| 🚧 | **Factorial Recursivo** | recursión |  |
+| 🚧 | **Fibonacci Recursivo** | recursión, complejidad |  |
+| 🚧 | **Torres de Hanoi** | recursión, llamadas anidadas |  |
+| 🚧 | **MCD (Euclides)** | recursión/iteración |  |
+| 🚧 | **Suma de Array Recursiva** | recursión aplicada a arrays |  |
+| 🚧 | **Longitud de cadena** | `strlen` manual con punteros |  |
+| 🚧 | **Copiar cadena** | `strcpy` manual con punteros |  |
+| 🚧 | **Memoria Dinámica (new/delete)** | `new`, `delete`, heap |  |
+| 🚧 | **Matriz Dinámica** | punteros a punteros, alocación 2D |  |
+| 🚧 | **Estructuras (struct)** | definición y acceso a campos |  |
+| 🚧 | **Array de Structs** | gestión de colecciones de structs |  |
+| 🚧 | **Puntero a Struct** | operador `->`, acceso indirecto |  |
+| 🚧 | **Punteros a Funciones** | callbacks, passing functions |  |
+| 🚧 | **Bubble Sort** | algoritmos de ordenamiento |  |
+| 🚧 | **Búsqueda Binaria** | búsqueda en O(log n) |  |
+
+</details>
+
+<details>
+<summary><h2>🔵 Nivel 4: Programación Orientada a Objetos y STL</h2></summary>
+
+| Estado | Ejercicio | Conceptos | Acción |
+|---:|---|---|:---|
+| 🚧 | **Clase Rectángulo** | clases, métodos, área/perímetro |  |
+| 🚧 | **Encapsulamiento** | `private`/`public`, getters/setters |  |
+| 🚧 | **Constructores y Destructores** | RAII, ciclo de vida de objetos |  |
+| 🚧 | **Sobrecarga de Métodos** | polimorfismo estático |  |
+| 🚧 | **Herencia Simple** | clase base y derivada |  |
+| 🚧 | **Polimorfismo** | `virtual`, overrides |  |
+| 🚧 | **Clases Abstractas** | métodos virtuales puros |  |
+| 🚧 | **Sobrecarga de Operadores** | operadores como `+` |  |
+| 🚧 | **Miembros Estáticos** | `static` variables |  |
+| 🚧 | **Composición** | relación `has-a` entre objetos |  |
+| 🚧 | **Vector (STL)** | `std::vector` operaciones |  |
+| 🚧 | **Map (STL)** | conteo de frecuencia con `std::map` |  |
+| 🚧 | **Set (STL)** | eliminación de duplicados |  |
+| 🚧 | **List (STL)** | `std::list` uso |  |
+| 🚧 | **Iteradores** | iteradores STL, rango-for |  |
+| 🚧 | **Algoritmos STL** | `std::sort`, `std::find` |  |
+| 🚧 | **Archivos de Texto (Lectura)** | `ifstream` lectura linea a linea |  |
+| 🚧 | **Archivos de Texto (Escritura)** | `ofstream` escritura |  |
+| 🚧 | **Archivos Binarios** | lectura/escritura binaria de `struct` |  |
+| 🚧 | **Manejo de Excepciones** | `try`/`catch`/`throw` |  |
+
+</details>
+
+<details>
+<summary><h2>🟣 Nivel 5: C++ Moderno y Avanzado</h2></summary>
+
+| Estado | Ejercicio | Conceptos | Acción |
+|---:|---|---|:---|
+| 🚧 | **Templates de Función** | templates, genéricos |  |
+| 🚧 | **Templates de Clase** | `Pila<T>`, contenedores genéricos |  |
+| 🚧 | **Smart Pointers (unique_ptr)** | `unique_ptr`, ownership |  |
+| 🚧 | **Smart Pointers (shared_ptr)** | `shared_ptr`, conteo de referencias |  |
+| 🚧 | **Expresiones Lambda** | lambdas, closures |  |
+| 🚧 | **Move Semantics** | movimiento `&&`, `std::move` |  |
+| 🚧 | **Linked List Manual** | nodos, punteros, manejo dinámico |  |
+| 🚧 | **Stack Manual** | LIFO con nodos |  |
+| 🚧 | **Queue Manual** | FIFO con nodos |  |
+| 🚧 | **Árbol Binario de Búsqueda (BST)** | inserción, recorridos |  |
+| 🚧 | **Multithreading Básico** | `std::thread` creación |  |
+| 🚧 | **Mutex y Race Conditions** | `std::mutex`, sincronización |  |
+| 🚧 | **Producer-Consumer** | `std::condition_variable` |  |
+| 🚧 | **Singleton Pattern** | implementación thread-safe |  |
+| 🚧 | **Factory Pattern** | patrón de diseño Factory |  |
+| 🚧 | **Bit Manipulation** | operaciones a nivel de bit |  |
+| 🚧 | **RAII** | gestión de recursos con objetos |  |
+| 🚧 | **Algoritmo de Dijkstra** | grafos, prioridad |  |
+| 🚧 | **Parser JSON simple** | parsing string avanzado |  |
+| 🚧 | **Socket Programming Básico** | sockets, servidor Echo |  |
+
+</details>
+
+<details>
+<summary><h2>🧠 Arquitectura</h2></summary>
+
+| Reto | Descripción | Restricción | Complejidad |
+|---|---|---|---:|
+| Valor Absoluto (Abs) | Calcular $|x|$ sin `if` ni `abs()` usando máscaras | Sin `if`/ternario; usar desplazamiento `>>` y XOR | Baja |
+| Verificación de Signos Opuestos | Determinar si `x` e `y` tienen signos opuestos sin comparaciones | Sin `<` ni `>`; usar MSB y XOR | Baja |
+| Es Potencia de Dos | Comprobar si `n` es potencia de 2 en una línea | Sin bucles ni condicionales; usar `n & (n-1)` | Baja |
+| Multiplicación por 7 rápida | Multiplicar por 7 usando desplazamientos y restas | Sin `*`; usar `<<` y `-` | Baja |
+| Set condicional (Conditional Move) | Implementar selección entre `valor_A` y `valor_B` sin `if` | Sin `if` ni `?`; usar máscaras (0xFFFFFFFF) | Media |
+| Suma Condicional de Arreglo | Sumar solo elementos pares sin `if` | Sin `if`; generar máscara de paridad | Media |
+| Conversión a Minúsculas | Convertir ASCII mayúscula→minúscula sin `if` | Sin verificación de rangos; usar OR con `0x20` | Baja |
+| Contador de Bits (Hamming Weight) | Contar bits en 32-bit integer | Implementar algoritmo de Kernighan o lookup | Media |
+| Intercambio circular (Ring Buffer Index) | Incrementar índice con wrap-around sin `%` | N potencia de 2; usar `& (N-1)` | Baja |
+| Encontrar el elemento único (XOR Hash) | Encontrar número único donde otros se duplican | O(N) tiempo, O(1) memoria; usar XOR acumulado | Baja |
+| Alineación de Memoria (Align Up) | Calcular siguiente dirección alineada a A | Sin condicionales; usar `(ptr + (A - 1)) & ~(A - 1)` | Media |
+| Intercambio XOR de Memoria | Swap usando XOR y punteros sin temp | Sin variable temporal; usar XOR en memoria | Baja |
+| Empaquetado de Color (RGB Packing) | Empaquetar R,G,B(0-255) en 32-bit int | Uso de `<<` y `|` para empaquetar bytes | Baja |
+| Saturación Aritmética (Clamp) | Sumar `unsigned char` y saturar a 255 sin `if` | Sin `if`; generar máscara de overflow | Media |
+| Detección de Endianness | Detectar Little vs Big Endian inspeccionando memoria | Inspeccionar bytes de un `int` | Baja |
+| Clase BitFlag Eficiente | Gestionar 64 flags con `uint64_t` interno | Operaciones bitwise para set/clear/toggle | Media |
+| Comparador Lexicográfico Branchless | Comparar palabras empaquetadas sin branches | Emplear operaciones enteras en registros | Alta |
+| UTF-8 Byte Length | Determinar longitud de carácter UTF-8 desde primer byte | Sin `switch`/`if`; usar lookup table o conteo de bits | Alta |
+| Filtro de Bloom | Estructura probabilística con múltiples hashes | Uso intensivo de bits y hashes; falso positivo posible | Alta |
+| Mínimo/Máximo Branchless en Vector | Calcular min y max sin `if` en el bucle | Usar artimática branchless (`&` y shifts) | Alta |
+
+</details>
+
+---
+
+Si desea que convierta automáticamente el resto de los elementos (por ejemplo, generar enlaces precisos a archivos existentes, añadir badges por nivel o generar miniaturas visuales), indíquelo y lo implemento a continuación.
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/)
+
+# Portafolio-C++
+
+## Ejecutar ejercicios en Codespaces (menu interactivo)
+
+En la terminal:
+
+```sh
+./menu.sh
+```
+
+Nota: `menu.sh` se proporciona con permisos ejecutables por defecto en Codespaces (y `.devcontainer` contiene un `postCreateCommand` como respaldo). Si por alguna razón no puede ejecutarlo, use `bash menu.sh`.
+
+Propósito
+---------
+Portafolio-C++ es un repositorio público que recopila ejercicios en C++ organizados por niveles de aprendizaje. El objetivo es mostrar implementaciones pedagógicas y autocontenidas de problemas clásicos y modernos a medida que se avanza en el dominio del lenguaje.
+
 Lista de ejercicios (planeados)
 ------------------------------
 
