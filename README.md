@@ -24,9 +24,9 @@ También se incluyen enlaces a OnlineGDB para facilitar la ejecución rápida de
 
 
 ```mermaid
-%%{init: {'theme': 'base', 'flowchart': {'useMaxWidth': false, 'nodeSpacing': 16, 'rankSpacing': 18}, 'themeVariables': {
+%%{init: {'theme': 'base', 'flowchart': {'useMaxWidth': true, 'nodeSpacing': 10, 'rankSpacing': 20}, 'themeVariables': {
   'fontFamily': '"Fira Code", "DejaVu Sans Mono", monospace',
-  'fontSize': '9px',
+  'fontSize': '10px',
   'nodePadding': '4',
   'primaryColor': '#ff6f61',
   'edgeLabelBackground': '#0b1a2b',
@@ -34,11 +34,11 @@ También se incluyen enlaces a OnlineGDB para facilitar la ejecución rápida de
   'clusterBkg': '#1d3557',
   'tertiaryColor': '#2a9d8f'
 }}}%%
-graph TD;
+graph LR;
   A[01. Fundamentos] --> B[02. Control de Flujo];
   B --> C{03. Memoria & Punteros};
-  C -->|Standard Path| D[04. POO & STL];
-  C -->|Low-Level Path| E[05. Arquitectura & Bit-Hacking];
+  C -->|Standard| D[04. POO & STL];
+  C -->|Low-Level| E[05. Arquitectura];
   D --> F[06. C++ Moderno];
   E --> F;
   style A fill:#ffb347,stroke:#cc5500,stroke-width:2px,color:#0b1a1e
