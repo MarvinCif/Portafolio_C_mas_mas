@@ -3,5 +3,4 @@
 
 // Enunciado: Comprobar si un número es divisible por 5 y 11.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_EJERCICIO_17_DIVISIBILIDAD_HPP
+#endif

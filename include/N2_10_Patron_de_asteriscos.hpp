@@ -3,5 +3,4 @@
 
 // Enunciado: Imprimir un triángulo rectángulo de asteriscos.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N2_10_PATRON_DE_ASTERISCOS_HPP
+#endif

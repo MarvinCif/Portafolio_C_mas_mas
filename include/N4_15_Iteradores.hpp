@@ -3,5 +3,4 @@
 
 // Enunciado: Recorrer contenedores STL usando iteradores.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N4_15_ITERADORES_HPP
+#endif

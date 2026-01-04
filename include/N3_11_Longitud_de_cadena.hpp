@@ -3,5 +3,4 @@
 
 // Enunciado: Implementar strlen usando punteros.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N3_11_LONGITUD_DE_CADENA_HPP
+#endif

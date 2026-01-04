@@ -3,5 +3,4 @@
 
 // Enunciado: Crear una matriz 2D usando punteros a punteros.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N3_14_MATRIZ_DINAMICA_HPP
+#endif

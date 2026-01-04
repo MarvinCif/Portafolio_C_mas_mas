@@ -3,5 +3,4 @@
 
 // Enunciado: Usar lambdas con std::for_each.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N5_05_EXPRESIONES_LAMBDA_HPP
+#endif

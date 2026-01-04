@@ -3,5 +3,4 @@
 
 // Enunciado: Contar la frecuencia de palabras en un texto.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N4_12_MAP_STL_HPP
+#endif

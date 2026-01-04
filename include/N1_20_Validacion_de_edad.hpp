@@ -3,5 +3,4 @@
 
 // Enunciado: Determinar si una persona es mayor de edad.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_EJERCICIO_20_VALIDACION_DE_EDAD_HPP
+#endif

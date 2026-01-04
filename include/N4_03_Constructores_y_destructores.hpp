@@ -3,5 +3,4 @@
 
 // Enunciado: Demostrar el ciclo de vida de un objeto.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N4_03_CONSTRUCTORES_Y_DESTRUCTORES_HPP
+#endif

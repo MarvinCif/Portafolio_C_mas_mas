@@ -3,5 +3,4 @@
 
 // Enunciado: Sobrecargar + para sumar dos objetos Vector2D.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N4_08_SOBRECARGA_DE_OPERADORES_HPP
+#endif

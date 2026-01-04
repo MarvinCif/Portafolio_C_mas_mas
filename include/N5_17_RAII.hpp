@@ -3,5 +3,4 @@
 
 // Enunciado: Crear una clase que gestione un manejador de archivo (FILE*).
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N5_17_RAII_HPP
+#endif

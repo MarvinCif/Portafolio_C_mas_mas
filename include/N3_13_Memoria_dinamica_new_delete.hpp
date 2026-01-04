@@ -3,5 +3,4 @@
 
 // Enunciado: Crear un arreglo de tamaño definido por el usuario en tiempo de ejecución usando new/delete.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N3_13_MEMORIA_DINAMICA_NEW_DELETE_HPP
+#endif

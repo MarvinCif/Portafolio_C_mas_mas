@@ -3,5 +3,4 @@
 
 // Enunciado: Intercambiar dos int usando punteros y XOR, sin variable temporal.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_A_NIVEL3_02_INTERCAMBIO_XOR_DE_MEMORIA_HPP
+#endif

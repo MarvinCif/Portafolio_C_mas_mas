@@ -3,5 +3,4 @@
 
 // Enunciado: Clasificar un número ingresado.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_EJERCICIO_14_NUMERO_POSITIVO_NEGATIVO_CERO_HPP
+#endif

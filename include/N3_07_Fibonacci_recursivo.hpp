@@ -3,5 +3,4 @@
 
 // Enunciado: Implementación recursiva de Fibonacci (notar ineficiencia).
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N3_07_FIBONACCI_RECURSIVO_HPP
+#endif

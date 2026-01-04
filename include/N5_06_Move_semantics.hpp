@@ -3,5 +3,4 @@
 
 // Enunciado: Implementar Constructor de Movimiento y Operador de Asignación por Movimiento (&&).
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N5_06_MOVE_SEMANTICS_HPP
+#endif

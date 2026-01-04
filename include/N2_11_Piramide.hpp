@@ -3,5 +3,4 @@
 
 // Enunciado: Imprimir una pirámide centrada de asteriscos.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N2_11_PIRAMIDE_HPP
+#endif

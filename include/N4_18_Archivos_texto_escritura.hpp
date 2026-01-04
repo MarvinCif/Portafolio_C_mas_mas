@@ -3,5 +3,4 @@
 
 // Enunciado: Guardar datos de usuarios en un archivo.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N4_18_ARCHIVOS_TEXTO_ESCRITURA_HPP
+#endif

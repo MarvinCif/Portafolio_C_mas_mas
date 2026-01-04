@@ -3,5 +3,4 @@
 
 // Enunciado: Implementar una calculadora básica pasando la operación como parámetro.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N3_18_PUNTEROS_A_FUNCIONES_HPP
+#endif

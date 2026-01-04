@@ -3,5 +3,4 @@
 
 // Enunciado: Crear dos hilos que impriman mensajes paralelos (std::thread).
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N5_11_MULTITHREADING_BASICO_HPP
+#endif

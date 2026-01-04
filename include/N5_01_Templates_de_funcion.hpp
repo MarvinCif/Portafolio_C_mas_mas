@@ -3,5 +3,4 @@
 
 // Enunciado: Crear una función max que acepte int, float, etc.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N5_01_TEMPLATES_DE_FUNCION_HPP
+#endif

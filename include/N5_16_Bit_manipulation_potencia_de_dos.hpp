@@ -3,5 +3,4 @@
 
 // Enunciado: Verificar si un número es potencia de 2 usando bits.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N5_16_BIT_MANIPULATION_POTENCIA_DE_DOS_HPP
+#endif

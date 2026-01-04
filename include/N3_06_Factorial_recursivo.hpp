@@ -3,5 +3,4 @@
 
 // Enunciado: Implementación recursiva del factorial.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N3_06_FACTORIAL_RECURSIVO_HPP
+#endif

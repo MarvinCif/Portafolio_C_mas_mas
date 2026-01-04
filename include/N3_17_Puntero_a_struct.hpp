@@ -3,5 +3,4 @@
 
 // Enunciado: Acceder a miembros usando el operador ->.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N3_17_PUNTERO_A_STRUCT_HPP
+#endif

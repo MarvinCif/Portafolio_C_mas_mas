@@ -3,5 +3,4 @@
 
 // Enunciado: Recorrer un arreglo usando solo punteros.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N3_04_ARITMETICA_DE_PUNTEROS_HPP
+#endif

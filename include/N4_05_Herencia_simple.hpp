@@ -3,5 +3,4 @@
 
 // Enunciado: Clase Animal -> Clase Perro.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N4_05_HERENCIA_SIMPLE_HPP
+#endif

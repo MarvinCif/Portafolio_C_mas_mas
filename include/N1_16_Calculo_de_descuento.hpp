@@ -3,5 +3,4 @@
 
 // Enunciado: Aplicar un descuento del 10% si la compra supera cierto monto.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_EJERCICIO_16_CALCULO_DE_DESCUENTO_HPP
+#endif

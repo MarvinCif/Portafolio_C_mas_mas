@@ -3,5 +3,4 @@
 
 // Enunciado: Usar private y public con getters y setters.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_N4_02_ENCAPSULAMIENTO_HPP
+#endif

@@ -3,5 +3,4 @@
 
 // Enunciado: Comparar dos palabras de 4 letras empaquetadas en un entero, sin branching.
 // Autor: Marvin Cifuentes
-
-#endif // PORTAFOLIO_CPP_A_NIVEL4_02_COMPARADOR_LEXICOGRAFICO_BRANCHLESS_HPP
+#endif
