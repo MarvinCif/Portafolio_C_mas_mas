@@ -22,11 +22,13 @@ Portafolio-C++ es un repositorio público que recopila ejercicios en C++ organiz
 
 También se incluyen enlaces a OnlineGDB para facilitar la ejecución rápida de los ejercicios desde el navegador.
 
+Nota: según el visor (por ejemplo, GitHub), puede que no se permita forzar la apertura en una nueva pestaña; si te ocurre, usa Ctrl+Click / botón central.
+
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {
+%%{init: {'theme': 'base', 'flowchart': {'useMaxWidth': false, 'nodeSpacing': 16, 'rankSpacing': 18}, 'themeVariables': {
   'fontFamily': '"Fira Code", "DejaVu Sans Mono", monospace',
-  'fontSize': '10px',
-  'nodePadding': '6',
+  'fontSize': '9px',
+  'nodePadding': '4',
   'primaryColor': '#ff6f61',
   'edgeLabelBackground': '#0b1a2b',
   'edgeLabelColor': '#f1faee',
