@@ -27,10 +27,6 @@ También se incluyen enlaces a OnlineGDB para facilitar la ejecución rápida de
   <img src="mermaid.svg" alt="Diagrama de niveles" style="max-width:100%; height:auto;">
 </p>
 
-<p align="center">
-  <a href="mermaid.svg" target="_blank" rel="noopener noreferrer">Abrir diagrama (SVG)</a>
-</p>
-
 ## `Ejercicios`
 
 Leyenda
