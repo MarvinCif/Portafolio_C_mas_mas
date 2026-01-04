@@ -1,9 +1,15 @@
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+
+## `< Tech Stack />`
+
+[![C++](https://img.shields.io/badge/C%2B%2B-ISO%20Standard-blue?style=flat&logo=c%2B%2B)](https://isocpp.org/)
+[![CMake](https://img.shields.io/badge/CMake-Build-informational?style=flat&logo=cmake)](https://cmake.org/)
+[![Algorithms](https://img.shields.io/badge/Algorithms-Practice-informational?style=flat)](https://en.wikipedia.org/wiki/Algorithm)
+[![STL](https://img.shields.io/badge/STL-Containers%20%7C%20Algorithms-informational?style=flat)](https://en.cppreference.com/w/cpp)
 
 # Portafolio-C++
 
-## Ejecutar ejercicios en Codespaces (menu interactivo)
+## `Ejecutar ejercicios en Codespaces (menu interactivo)`
 
 En la terminal:
 
@@ -13,184 +19,185 @@ En la terminal:
 
 Nota: `menu.sh` se proporciona con permisos ejecutables por defecto en Codespaces (y `.devcontainer` contiene un `postCreateCommand` como respaldo). Si por alguna razón no puede ejecutarlo, use `bash menu.sh`.
 
-Propósito
----------
+## `Propósito`
 Portafolio-C++ es un repositorio público que recopila ejercicios en C++ organizados por niveles de aprendizaje. El objetivo es mostrar implementaciones pedagógicas y autocontenidas de problemas clásicos y modernos a medida que se avanza en el dominio del lenguaje.
 
 ```mermaid
 graph TD;
-  A[Nivel 1: Fundamentos] --> B[Nivel 2: Control de Flujo];
-  B --> C{Nivel 3: Memoria y Punteros};
-  C -->|Ruta Estándar| D[Nivel 4: POO y STL];
-  C -->|Ruta Hacker| E[Arquitectura y Bits];
-  D --> F[Nivel 5: C++ Moderno];
+  A[01. Fundamentos] --> B[02. Control de Flujo];
+  B --> C{03. Memoria & Punteros};
+  C -->|Standard Path| D[04. POO & STL];
+  C -->|Low-Level Path| E[05. Arquitectura & Bit-Hacking];
+  D --> F[06. C++ Moderno];
   E --> F;
 ```
 
-## Portafolio (interactivo)
+## `< Roadmap :: Ejercicios />`
 
-**Leyenda**
+Leyenda
+- En la columna **Status**, `[x]` refleja entradas marcadas como **[COMPLETADO]** en el documento original.
 
-- ✅: marcado como **[COMPLETADO]** en el listado original.
-- 🚧: planificado (sin marca de completado).
+<details>
+  <summary><h3><strong><code>01 :: Fundamentos</code></strong></h3></summary>
 
-<details open>
-  <summary><h2>🟢 Nivel 1: Fundamentos</h2></summary>
+| Status | Exercise | Topic | Source |
+|---|---|---|---|
+| [x] | Hola Mundo | `std::cout` | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_01_HolaMundo.cpp) |
+| [x] | Suma de dos números | `std::cin`, operadores | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_02_Suma.cpp) |
+| [x] | Tipos de datos | `sizeof` | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_03_TiposDeDatos.cpp) |
+| [x] | Intercambio de variables | swap con temporal | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_04_Intercambio_Temporal.cpp) |
+| [x] | Intercambio sin temporal | aritmética / XOR | [Aritmético](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_05_Intercambio_Aritmetico.cpp)<br/>[XOR](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_05_Intercambio_XOR.cpp) |
+| [x] | Par o Impar | `%`, condicionales | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_06_ParImpar.cpp) |
+| [x] | Mayor de dos | comparación | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_07_MayorDeDos.cpp) |
+| [x] | Mayor de tres | comparación | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_08_MayorDeTres.cpp) |
+| [x] | Año bisiesto | lógica booleana | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_09_AnioBisiesto.cpp) |
+| [x] | Calculadora simple | `switch` | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_10_Calculadora.cpp) |
+| [x] | Área de un círculo | constantes, `double` | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_11_AreaCirculo.cpp) |
+| [x] | Conversor de temperatura | fórmulas | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_12_Conversor.cpp) |
+| [ ] | Verificar vocal | `char`, condicionales | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_13_Verificar_vocal.cpp) |
+| [ ] | Número positivo/negativo/cero | rangos | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_14_Numero_positivo_negativo_cero.cpp) |
+| [ ] | Días de la semana | `switch` / mapping | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_15_Dias_de_la_semana.cpp) |
+| [ ] | Cálculo de descuento | condiciones | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_16_Calculo_de_descuento.cpp) |
+| [ ] | Divisibilidad | operadores | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_17_Divisibilidad.cpp) |
+| [ ] | Ecuación cuadrática | $ax^2 + bx + c$ | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_18_Ecuacion_cuadratica.cpp) |
+| [ ] | ASCII | casts, tabla ASCII | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_19_ASCII.cpp) |
+| [ ] | Validación de edad | condicionales | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_20_Validacion_de_edad.cpp) |
 
-| Estado | Ejercicio | Conceptos | Acción |
-| --- | --- | --- | --- |
-| ✅ | **Hola Mundo** | consola, `cout`, E/S | [📂 Ver Código](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_01_HolaMundo.cpp) |
-| ✅ | **Suma de dos números** | `cin`, enteros, suma | [📂 Ver Código](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_02_Suma.cpp) |
-| ✅ | **Tipos de datos** | `sizeof`, `int`, `float`, `double`, `char` | [📂 Ver Código](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_03_TiposDeDatos.cpp) |
-| ✅ | **Intercambio de variables** | temporal, asignación, swap | [📂 Ver Código](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_04_Intercambio_Temporal.cpp) |
-| ✅ | **Intercambio sin temporal** | aritmética, XOR, swap | [📂 Ver Código](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_05_Intercambio_Aritmetico.cpp) |
-| ✅ | **Par o Impar** | `%`, paridad, condicional | [📂 Ver Código](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_06_ParImpar.cpp) |
-| ✅ | **Mayor de dos** | comparación, `if`, máximo | [📂 Ver Código](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_07_MayorDeDos.cpp) |
-| ✅ | **Mayor de tres** | comparación, `if`, máximo | [📂 Ver Código](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_08_MayorDeTres.cpp) |
-| ✅ | **Año bisiesto** | divisibilidad, calendario, condicional | [📂 Ver Código](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_09_AnioBisiesto.cpp) |
-| ✅ | **Calculadora simple** | `switch`, operadores, división | [📂 Ver Código](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_10_Calculadora.cpp) |
-| ✅ | **Área de un círculo** | PI, radio, fórmula | [📂 Ver Código](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_11_AreaCirculo.cpp) |
-| ✅ | **Conversor de temperatura** | Celsius, Fahrenheit, conversión | [📂 Ver Código](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_12_Conversor.cpp) |
-| 🚧 | **Verificar vocal** | `char`, vocal/consonante, validación |  |
-| 🚧 | **Número positivo/negativo/cero** | comparación, condicional, casos |  |
-| 🚧 | **Días de la semana** | `switch`, mapeo 1-7, control de flujo |  |
-| 🚧 | **Cálculo de descuento** | porcentaje, umbral, condicional |  |
-| 🚧 | **Divisibilidad** | módulo, divisores 5 y 11 |  |
-| 🚧 | **Ecuación cuadrática** | raíces, discriminante, $ax^2 + bx + c = 0$ |  |
-| 🚧 | **ASCII** | tabla ASCII, `char`↔`int` |  |
-| 🚧 | **Validación de edad** | comparación, rangos, mayor de edad |  |
 </details>
 
 <details>
+  <summary><h3><strong><code>02 :: Control de Flujo</code></strong></h3></summary>
 
-| Estado | Ejercicio | Conceptos | Acción |
-| --- | --- | --- | --- |
-| 🚧 | **Imprimir 1 al 100** | `for`, iteración, salida |  |
-| 🚧 | **Suma de naturales** | acumulador, bucles, series |  |
-| 🚧 | **Factorial** | bucles, multiplicación, $n!$ |  |
-| 🚧 | **Tabla de multiplicar** | bucles, producto, formato |  |
-| 🚧 | **Serie Fibonacci** | recurrencia, bucles, secuencia |  |
-| 🚧 | **Invertir número** | dígitos, `%`, `/` |  |
-| 🚧 | **Suma de dígitos** | dígitos, `%`, acumulación |  |
-| 🚧 | **Números Primos** | primalidad, divisores, bucles |  |
-| 🚧 | **Primos en rango** | rangos, primalidad, bucles |  |
-| 🚧 | **Patrón de asteriscos** | bucles anidados, impresión, patrones |  |
-| 🚧 | **Pirámide** | bucles anidados, alineación, patrones |  |
-| 🚧 | **Máximo en Array** | arreglos, recorrido, máximo |  |
-| 🚧 | **Mínimo en Array** | arreglos, recorrido, mínimo |  |
-| 🚧 | **Promedio** | suma, conteo, media |  |
-| 🚧 | **Buscar elemento** | búsqueda lineal, arreglos, índice |  |
-| 🚧 | **Contar ocurrencias** | frecuencia, arreglos, conteo |  |
-| 🚧 | **Invertir Array** | in-place, índices, swap |  |
-| 🚧 | **Palíndromo (String)** | strings, comparación, dos punteros |  |
-| 🚧 | **Contar vocales (String)** | strings, conteo, caracteres |  |
-| 🚧 | **Concatenar cadenas** | strings, buffers, concatenación manual |  |
+| Status | Exercise | Topic | Source |
+|---|---|---|---|
+| [ ] | Imprimir 1 al 100 | `for` | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_01_Imprimir_1_al_100.cpp) |
+| [ ] | Suma de naturales | acumulación | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_02_Suma_de_naturales.cpp) |
+| [ ] | Factorial | $n!$ | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_03_Factorial.cpp) |
+| [ ] | Tabla de multiplicar | loops | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_04_Tabla_de_multiplicar.cpp) |
+| [ ] | Serie Fibonacci | iteración | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_05_Serie_Fibonacci.cpp) |
+| [ ] | Invertir número | aritmética entera | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_06_Invertir_numero.cpp) |
+| [ ] | Suma de dígitos | `%` y `/` | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_07_Suma_de_digitos.cpp) |
+| [ ] | Números Primos | primalidad | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_08_Numeros_primos.cpp) |
+| [ ] | Primos en rango | loops | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_09_Primos_en_rango.cpp) |
+| [ ] | Patrón de asteriscos | patrones | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_10_Patron_de_asteriscos.cpp) |
+| [ ] | Pirámide | patrones | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_11_Piramide.cpp) |
+| [ ] | Máximo en Array | arrays | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_12_Maximo_en_array.cpp) |
+| [ ] | Mínimo en Array | arrays | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_13_Minimo_en_array.cpp) |
+| [ ] | Promedio | media aritmética | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_14_Promedio.cpp) |
+| [ ] | Buscar elemento | búsqueda lineal | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_15_Buscar_elemento.cpp) |
+| [ ] | Contar ocurrencias | conteo | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_16_Contar_ocurrencias.cpp) |
+| [ ] | Invertir Array | in-place | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_17_Invertir_array.cpp) |
+| [ ] | Palíndromo (String) | strings | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_18_Palindromo_string.cpp) |
+| [ ] | Contar vocales (String) | strings | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_19_Contar_vocales_string.cpp) |
+| [ ] | Concatenar cadenas | strings | [View Code](./src/Nivel2_ControlDeFlujo_Y_Arreglos_Bucles_Arrays_Strings_Basicos/N2_20_Concatenar_cadenas.cpp) |
+
 </details>
 
 <details>
-  <summary><h2>🔴 Nivel 3: Memoria y Punteros</h2></summary>
+  <summary><h3><strong><code>03 :: Memoria & Punteros</code></strong></h3></summary>
 
-| Estado | Ejercicio | Conceptos | Acción |
-| --- | --- | --- | --- |
-| 🚧 | **Función Potencia** | funciones, bucles, $x^y$ |  |
-| 🚧 | **Paso por Valor vs Referencia** | referencia, copia, efectos laterales |  |
-| 🚧 | **Punteros Básicos** | direcciones, `*`, `&` |  |
-| 🚧 | **Aritmética de Punteros** | punteros, arrays, recorrido |  |
-| 🚧 | **Swap con Punteros** | `int*`, dereferencia, swap |  |
-| 🚧 | **Factorial Recursivo** | recursión, caso base, $n!$ |  |
-| 🚧 | **Fibonacci Recursivo** | recursión, complejidad, memoización (conceptual) |  |
-| 🚧 | **Torres de Hanoi** | recursión, descomposición, movimientos |  |
-| 🚧 | **MCD (Euclides)** | recursión, módulo, gcd |  |
-| 🚧 | **Suma de Array Recursiva** | recursión, arreglos, acumulación |  |
-| 🚧 | **Longitud de cadena** | punteros, `strlen`, recorrido |  |
-| 🚧 | **Copiar cadena** | punteros, `strcpy`, buffers |  |
-| 🚧 | **Memoria Dinámica (new/delete)** | heap, `new[]`, `delete[]` |  |
-| 🚧 | **Matriz Dinámica** | `**`, asignación, 2D |  |
-| 🚧 | **Estructuras (struct)** | `struct`, campos, entrada/salida |  |
-| 🚧 | **Array de Structs** | arreglos, `struct`, iteración |  |
-| 🚧 | **Puntero a Struct** | `->`, punteros, acceso |  |
-| 🚧 | **Punteros a Funciones** | callbacks, firmas, dispatch |  |
-| 🚧 | **Bubble Sort** | ordenamiento, bucles, swap |  |
-| 🚧 | **Búsqueda Binaria** | búsqueda, ordenado, iterativo/recursivo |  |
+| Status | Exercise | Topic | Source |
+|---|---|---|---|
+| [ ] | Función Potencia | $x^y$ sin `pow()` | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_01_Funcion_potencia.cpp) |
+| [ ] | Paso por Valor vs Referencia | `&` | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_02_Paso_por_valor_vs_referencia.cpp) |
+| [ ] | Punteros Básicos | punteros | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_03_Punteros_basicos.cpp) |
+| [ ] | Aritmética de Punteros | arrays + punteros | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_04_Aritmetica_de_punteros.cpp) |
+| [ ] | Swap con Punteros | `int*` | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_05_Swap_con_punteros.cpp) |
+| [ ] | Factorial Recursivo | recursión | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_06_Factorial_recursivo.cpp) |
+| [ ] | Fibonacci Recursivo | recursión | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_07_Fibonacci_recursivo.cpp) |
+| [ ] | Torres de Hanoi | recursión | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_08_Torres_de_Hanoi.cpp) |
+| [ ] | MCD (Euclides) | recursión | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_09_MCD_Euclides.cpp) |
+| [ ] | Suma de Array Recursiva | recursión | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_10_Suma_de_array_recursiva.cpp) |
+| [ ] | Longitud de cadena | punteros | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_11_Longitud_de_cadena.cpp) |
+| [ ] | Copiar cadena | punteros | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_12_Copiar_cadena.cpp) |
+| [ ] | Memoria Dinámica (new/delete) | heap | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_13_Memoria_dinamica_new_delete.cpp) |
+| [ ] | Matriz Dinámica | `T**` | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_14_Matriz_dinamica.cpp) |
+| [ ] | Estructuras (struct) | `struct` | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_15_Estructuras_struct.cpp) |
+| [ ] | Array de Structs | colección | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_16_Array_de_structs.cpp) |
+| [ ] | Puntero a Struct | `->` | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_17_Puntero_a_struct.cpp) |
+| [ ] | Punteros a Funciones | callbacks | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_18_Punteros_a_funciones.cpp) |
+| [ ] | Bubble Sort | sorting | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_19_Bubble_sort.cpp) |
+| [ ] | Búsqueda Binaria | búsqueda | [View Code](./src/Nivel3_Modularidad_Y_Memoria_Funciones_Punteros_Recursividad/N3_20_Busqueda_binaria.cpp) |
+
 </details>
 
 <details>
-  <summary><h2>🔵 Nivel 4: POO y STL</h2></summary>
+  <summary><h3><strong><code>04 :: POO & STL</code></strong></h3></summary>
 
-| Estado | Ejercicio | Conceptos | Acción |
-| --- | --- | --- | --- |
-| 🚧 | **Clase Rectángulo** | clases, métodos, área/perímetro |  |
-| 🚧 | **Encapsulamiento** | `private`, `public`, getters/setters |  |
-| 🚧 | **Constructores y Destructores** | RAII básico, ciclo de vida |  |
-| 🚧 | **Sobrecarga de Métodos** | overloading, firmas, parámetros |  |
-| 🚧 | **Herencia Simple** | herencia, `protected`, especialización |  |
-| 🚧 | **Polimorfismo** | `virtual`, overrides, dispatch dinámico |  |
-| 🚧 | **Clases Abstractas** | virtual puro, interfaz, `override` |  |
-| 🚧 | **Sobrecarga de Operadores** | operadores, `operator+`, semántica |  |
-| 🚧 | **Miembros Estáticos** | `static`, estado compartido, contador |  |
-| 🚧 | **Composición** | composición, agregación, diseño |  |
-| 🚧 | **Vector (STL)** | `std::vector`, iteración, mutación |  |
-| 🚧 | **Map (STL)** | `std::map`, conteo, claves |  |
-| 🚧 | **Set (STL)** | `std::set`, unicidad, filtrado |  |
-| 🚧 | **List (STL)** | `std::list`, enlaces, iteradores |  |
-| 🚧 | **Iteradores** | iteradores, `begin/end`, recorrido |  |
-| 🚧 | **Algoritmos STL** | `std::sort`, `std::find`, `std::accumulate` |  |
-| 🚧 | **Archivos de Texto (Lectura)** | `fstream`, lectura, líneas |  |
-| 🚧 | **Archivos de Texto (Escritura)** | `fstream`, persistencia, formato |  |
-| 🚧 | **Archivos Binarios** | `ios::binary`, serialización simple |  |
-| 🚧 | **Manejo de Excepciones** | `try/catch`, `throw`, errores |  |
+| Status | Exercise | Topic | Source |
+|---|---|---|---|
+| [ ] | Clase Rectángulo | clases | [View Code](./src/Nivel4_POO_Y_STL/N4_01_Clase_rectangulo.cpp) |
+| [ ] | Encapsulamiento | getters/setters | [View Code](./src/Nivel4_POO_Y_STL/N4_02_Encapsulamiento.cpp) |
+| [ ] | Constructores y Destructores | lifetime | [View Code](./src/Nivel4_POO_Y_STL/N4_03_Constructores_y_destructores.cpp) |
+| [ ] | Sobrecarga de Métodos | overload | [View Code](./src/Nivel4_POO_Y_STL/N4_04_Sobrecarga_de_metodos.cpp) |
+| [ ] | Herencia Simple | herencia | [View Code](./src/Nivel4_POO_Y_STL/N4_05_Herencia_simple.cpp) |
+| [ ] | Polimorfismo | `virtual` | [View Code](./src/Nivel4_POO_Y_STL/N4_06_Polimorfismo.cpp) |
+| [ ] | Clases Abstractas | `= 0` | [View Code](./src/Nivel4_POO_Y_STL/N4_07_Clases_abstractas.cpp) |
+| [ ] | Sobrecarga de Operadores | operator overloading | [View Code](./src/Nivel4_POO_Y_STL/N4_08_Sobrecarga_de_operadores.cpp) |
+| [ ] | Miembros Estáticos | `static` | [View Code](./src/Nivel4_POO_Y_STL/N4_09_Miembros_estaticos.cpp) |
+| [ ] | Composición | composición | [View Code](./src/Nivel4_POO_Y_STL/N4_10_Composicion.cpp) |
+| [ ] | Vector (STL) | `std::vector` | [View Code](./src/Nivel4_POO_Y_STL/N4_11_Vector_STL.cpp) |
+| [ ] | Map (STL) | `std::map` | [View Code](./src/Nivel4_POO_Y_STL/N4_12_Map_STL.cpp) |
+| [ ] | Set (STL) | `std::set` | [View Code](./src/Nivel4_POO_Y_STL/N4_13_Set_STL.cpp) |
+| [ ] | List (STL) | `std::list` | [View Code](./src/Nivel4_POO_Y_STL/N4_14_List_STL.cpp) |
+| [ ] | Iteradores | iterators | [View Code](./src/Nivel4_POO_Y_STL/N4_15_Iteradores.cpp) |
+| [ ] | Algoritmos STL | `std::sort`/`find` | [View Code](./src/Nivel4_POO_Y_STL/N4_16_Algoritmos_STL.cpp) |
+| [ ] | Archivos de Texto (Lectura) | `ifstream` | [View Code](./src/Nivel4_POO_Y_STL/N4_17_Archivos_texto_lectura.cpp) |
+| [ ] | Archivos de Texto (Escritura) | `ofstream` | [View Code](./src/Nivel4_POO_Y_STL/N4_18_Archivos_texto_escritura.cpp) |
+| [ ] | Archivos Binarios | `fstream` binary | [View Code](./src/Nivel4_POO_Y_STL/N4_19_Archivos_binarios.cpp) |
+| [ ] | Manejo de Excepciones | `try/catch` | [View Code](./src/Nivel4_POO_Y_STL/N4_20_Manejo_de_excepciones.cpp) |
+
 </details>
 
 <details>
-  <summary><h2>🟣 Nivel 5: C++ Moderno</h2></summary>
+  <summary><h3><strong><code>05 :: C++ Moderno</code></strong></h3></summary>
 
-| Estado | Ejercicio | Conceptos | Acción |
-| --- | --- | --- | --- |
-| 🚧 | **Templates de Función** | plantillas, genéricos, deducción |  |
-| 🚧 | **Templates de Clase** | `Pila<T>`, tipos, instanciación |  |
-| 🚧 | **Smart Pointers (unique_ptr)** | ownership, RAII, `std::unique_ptr` |  |
-| 🚧 | **Smart Pointers (shared_ptr)** | conteo de referencias, `std::shared_ptr` |  |
-| 🚧 | **Expresiones Lambda** | lambdas, algoritmos, capturas |  |
-| 🚧 | **Move Semantics** | rvalues, `&&`, movimiento |  |
-| 🚧 | **Linked List Manual** | nodos, punteros, heap |  |
-| 🚧 | **Stack Manual** | LIFO, nodos, punteros |  |
-| 🚧 | **Queue Manual** | FIFO, nodos, punteros |  |
-| 🚧 | **Árbol Binario de Búsqueda (BST)** | árboles, recorrido, orden |  |
-| 🚧 | **Multithreading Básico** | `std::thread`, concurrencia, join |  |
-| 🚧 | **Mutex y Race Conditions** | `std::mutex`, sección crítica |  |
-| 🚧 | **Producer-Consumer** | `condition_variable`, sincronización |  |
-| 🚧 | **Singleton Pattern** | patrón, thread-safe, estáticos |  |
-| 🚧 | **Factory Pattern** | patrón, construcción, polimorfismo |  |
-| 🚧 | **Bit Manipulation** | bits, potencia de 2, AND |  |
-| 🚧 | **RAII** | recursos, wrappers, liberación |  |
-| 🚧 | **Algoritmo de Dijkstra** | grafos, caminos mínimos, prioridad |  |
-| 🚧 | **Parser JSON simple** | parsing, strings, estado |  |
-| 🚧 | **Socket Programming Básico** | redes, TCP/UDP, echo server |  |
+| Status | Exercise | Topic | Source |
+|---|---|---|---|
+| [ ] | Templates de Función | templates | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_01_Templates_de_funcion.cpp) |
+| [ ] | Templates de Clase | templates | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_02_Templates_de_clase.cpp) |
+| [ ] | Smart Pointers (unique_ptr) | RAII | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_03_Smart_pointers_unique_ptr.cpp) |
+| [ ] | Smart Pointers (shared_ptr) | ownership | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_04_Smart_pointers_shared_ptr.cpp) |
+| [ ] | Expresiones Lambda | lambdas | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_05_Expresiones_lambda.cpp) |
+| [ ] | Move Semantics | `&&` | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_06_Move_semantics.cpp) |
+| [ ] | Linked List Manual | punteros | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_07_Linked_list_manual.cpp) |
+| [ ] | Stack Manual | LIFO | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_08_Stack_manual.cpp) |
+| [ ] | Queue Manual | FIFO | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_09_Queue_manual.cpp) |
+| [ ] | Árbol Binario de Búsqueda (BST) | árboles | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_10_BST.cpp) |
+| [ ] | Multithreading Básico | `std::thread` | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_11_Multithreading_basico.cpp) |
+| [ ] | Mutex y Race Conditions | `std::mutex` | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_12_Mutex_y_race_conditions.cpp) |
+| [ ] | Producer-Consumer | `condition_variable` | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_13_Producer_consumer.cpp) |
+| [ ] | Singleton Pattern | thread-safe | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_14_Singleton_pattern.cpp) |
+| [ ] | Factory Pattern | patrones | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_15_Factory_pattern.cpp) |
+| [ ] | Bit Manipulation | bitwise | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_16_Bit_manipulation_potencia_de_dos.cpp) |
+| [ ] | RAII | recursos | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_17_RAII.cpp) |
+| [ ] | Algoritmo de Dijkstra | grafos | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_18_Algoritmo_de_Dijkstra.cpp) |
+| [ ] | Parser JSON simple | parsing | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_19_Parser_JSON_simple.cpp) |
+| [ ] | Socket Programming Básico | networking | [View Code](./src/Nivel5_CPP_Moderno_Y_Avanzado_CPP11_14_17_20/N5_20_Socket_programming_basico.cpp) |
+
 </details>
 
-<details>
-  <summary><h2>🧠 Arquitectura</h2></summary>
+## `< Architecture :: Bit-Hacking />`
 
-| Reto | Descripción | Restricción | Complejidad |
-| --- | --- | --- | --- |
-| **Valor Absoluto (Abs)** | Calcular $|x|$ sin ramificaciones (branchless) usando máscaras | sin `if`, sin `abs()`, sin operador ternario | O(1) |
-| **Verificación de Signos Opuestos** | Detectar si `x` e `y` tienen signos opuestos usando MSB y XOR | sin comparaciones (`<`, `>`) | O(1) |
-| **Es Potencia de Dos** | Determinar si `n` es potencia de 2 con `n & (n - 1)` | sin bucles, sin condicionales | O(1) |
-| **Multiplicación por 7 rápida** | Multiplicar por 7 con desplazamientos y restas | sin `*` | O(1) |
-| **Set condicional (Conditional Move)** | Seleccionar entre `valor_A` y `valor_B` usando máscara derivada de `condicion` | sin `if`, sin `?` (idealmente sin multiplicación) | O(1) |
-| **Suma Condicional de Arreglo (Filter & Sum)** | Sumar solo pares sin ramificar | sin `if (arr[i] % 2 == 0)` | O(N) |
-| **Conversión a Minúsculas (Lowercaser)** | Convertir ASCII mayúsculas→minúsculas usando el bit 5 | sin `if` para rangos | O(N) |
-| **Contador de Bits (Hamming Weight)** | Contar bits en 1 (POPCNT conceptual) | — | O(1) (ancho de palabra) |
-| **Intercambio circular (Ring Buffer Index)** | Incrementar índice en buffer potencia de 2 con máscara | sin `if`, sin `%` | O(1) |
-| **Encontrar el elemento único (XOR Hash)** | Elemento no repetido usando acumulación XOR | memoria O(1) | O(N) |
-| **Alineación de Memoria (Align Up)** | Alinear `ptr` a múltiplo de `A` con máscara | sin condicionales | O(1) |
-| **Intercambio XOR de Memoria** | Intercambiar dos `int` con XOR vía punteros | sin variable temporal | O(1) |
-| **Empaquetado de Color (RGB Packing)** | Empaquetar (R,G,B) en 32 bits con `<<` y `|` | — | O(1) |
-| **Saturación Aritmética (Clamp)** | Suma saturada en 0-255 detectando overflow con bits | sin `if` | O(1) |
-| **Detección de Endianness** | Detectar Little/Big Endian inspeccionando memoria | — | O(1) |
-| **Clase "BitFlag" Eficiente** | 64 flags en un `uint64_t` con `set/clear/toggle/check` | — | O(1) |
-| **Comparador Lexicográfico Branchless** | Comparar 4 letras empaquetadas en `uint32_t` | — | O(1) |
-| **UTF-8 Byte Length** | Determinar longitud UTF-8 desde el primer byte | sin `switch` ni `if` encadenados | O(1) |
-| **Filtro de Bloom (Bloom Filter)** | Estructura probabilística con múltiples hashes | — | O(k) |
-| **Mínimo/Máximo Branchless en Vector** | Encontrar min/max sin `if` al iterar `std::vector<int>` | sin `if (val < min_val)` | O(N) |
-</details>
+| Status | Challenge | Constraint | Complexity $O(n)$ |
+|---|---|---|---|
+| [ ] | Valor Absoluto (Abs) — [View Code](./src/Arquitectura/Nivel1_Fundamentos_Bitwise_ComplementoA2/A_Nivel1_01_Valor_Absoluto_Abs.cpp) | sin `if`, sin `abs()`, sin `?:` | $O(1)$ |
+| [ ] | Verificación de Signos Opuestos — [View Code](./src/Arquitectura/Nivel1_Fundamentos_Bitwise_ComplementoA2/A_Nivel1_02_Verificacion_de_signos_opuestos.cpp) | sin `<` / `>` | $O(1)$ |
+| [ ] | Es Potencia de Dos — [View Code](./src/Arquitectura/Nivel1_Fundamentos_Bitwise_ComplementoA2/A_Nivel1_03_Es_potencia_de_dos.cpp) | sin bucles, sin condicionales | $O(1)$ |
+| [ ] | Multiplicación por 7 rápida — [View Code](./src/Arquitectura/Nivel1_Fundamentos_Bitwise_ComplementoA2/A_Nivel1_04_Multiplicacion_por_7_rapida.cpp) | sin `*`, solo `<<` y `-` | $O(1)$ |
+| [ ] | Set condicional (Conditional Move) — [View Code](./src/Arquitectura/Nivel1_Fundamentos_Bitwise_ComplementoA2/A_Nivel1_05_Set_condicional.cpp) | sin `if`, sin `?:` | $O(1)$ |
+| [ ] | Suma Condicional de Arreglo — [View Code](./src/Arquitectura/Nivel2_ControlDeFlujo_Y_Arreglos_ProcesamientoEnLote_Y_Mascaras/A_Nivel2_01_Suma_condicional_de_arreglo.cpp) | sin `if` por elemento | $O(n)$ |
+| [ ] | Conversión a Minúsculas — [View Code](./src/Arquitectura/Nivel2_ControlDeFlujo_Y_Arreglos_ProcesamientoEnLote_Y_Mascaras/A_Nivel2_02_Conversion_a_minusculas.cpp) | sin `if` de rangos | $O(n)$ |
+| [ ] | Contador de Bits (Hamming Weight) — [View Code](./src/Arquitectura/Nivel2_ControlDeFlujo_Y_Arreglos_ProcesamientoEnLote_Y_Mascaras/A_Nivel2_03_Contador_de_bits.cpp) | entero 32-bit | $O(1)$ |
+| [ ] | Ring Buffer Index — [View Code](./src/Arquitectura/Nivel2_ControlDeFlujo_Y_Arreglos_ProcesamientoEnLote_Y_Mascaras/A_Nivel2_04_Ring_buffer_index.cpp) | `N` potencia de 2, sin `%` | $O(1)$ |
+| [ ] | Encontrar elemento único (XOR) — [View Code](./src/Arquitectura/Nivel2_ControlDeFlujo_Y_Arreglos_ProcesamientoEnLote_Y_Mascaras/A_Nivel2_05_Encontrar_elemento_unico.cpp) | memoria $O(1)$ | $O(n)$ |
+| [ ] | Alineación de Memoria (Align Up) — [View Code](./src/Arquitectura/Nivel3_Modularidad_Y_Memoria_Alineacion_Y_Punteros/A_Nivel3_01_Alineacion_de_memoria.cpp) | `A` potencia de 2, sin condicionales | $O(1)$ |
+| [ ] | Intercambio XOR de Memoria — [View Code](./src/Arquitectura/Nivel3_Modularidad_Y_Memoria_Alineacion_Y_Punteros/A_Nivel3_02_Intercambio_XOR_de_memoria.cpp) | sin temporal | $O(1)$ |
+| [ ] | Empaquetado de Color (RGB Packing) — [View Code](./src/Arquitectura/Nivel3_Modularidad_Y_Memoria_Alineacion_Y_Punteros/A_Nivel3_03_Empaquetado_de_color_RGB.cpp) | R,G,B en [0..255] | $O(1)$ |
+| [ ] | Saturación Aritmética (Clamp) — [View Code](./src/Arquitectura/Nivel3_Modularidad_Y_Memoria_Alineacion_Y_Punteros/A_Nivel3_04_Saturacion_aritmetica.cpp) | sin `if` | $O(1)$ |
+| [ ] | Detección de Endianness — [View Code](./src/Arquitectura/Nivel3_Modularidad_Y_Memoria_Alineacion_Y_Punteros/A_Nivel3_05_Deteccion_de_endianness.cpp) | inspección de memoria | $O(1)$ |
+| [ ] | Clase BitFlag Eficiente — [View Code](./src/Arquitectura/Nivel4_Objetos_Y_Algoritmos_Avanzados_Abstraccion_Sin_Costo/A_Nivel4_01_Clase_BitFlag_eficiente.cpp) | hasta 64 flags en `uint64_t` | $O(1)$ |
+| [ ] | Comparador Lexicográfico Branchless — [View Code](./src/Arquitectura/Nivel4_Objetos_Y_Algoritmos_Avanzados_Abstraccion_Sin_Costo/A_Nivel4_02_Comparador_lexicografico_branchless.cpp) | palabras 4 bytes | $O(1)$ |
+| [ ] | UTF-8 Byte Length — [View Code](./src/Arquitectura/Nivel4_Objetos_Y_Algoritmos_Avanzados_Abstraccion_Sin_Costo/A_Nivel4_03_UTF_8_byte_length.cpp) | sin `switch`/`if` encadenados | $O(1)$ |
+| [ ] | Filtro de Bloom — [View Code](./src/Arquitectura/Nivel4_Objetos_Y_Algoritmos_Avanzados_Abstraccion_Sin_Costo/A_Nivel4_04_Filtro_de_Bloom.cpp) | `k` hashes | $O(1)$ |
+| [ ] | Min/Max Branchless en Vector — [View Code](./src/Arquitectura/Nivel4_Objetos_Y_Algoritmos_Avanzados_Abstraccion_Sin_Costo/A_Nivel4_05_Minimo_maximo_branchless.cpp) | sin `if` en actualización | $O(n)$ |
