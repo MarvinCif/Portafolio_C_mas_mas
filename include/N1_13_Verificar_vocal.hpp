@@ -3,7 +3,6 @@
 
 // Enunciado: Pedir un carácter y determinar si es una vocal o consonante.
 // Autor: Marvin Cifuentes
-#ifndef PORTAFOLIO_CPP_EJERCICIO_13_VERIFICAR_VOCAL_HPP
 
 void Vocal_Consonante(char carac);
 
