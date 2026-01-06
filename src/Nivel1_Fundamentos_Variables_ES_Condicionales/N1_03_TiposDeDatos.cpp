@@ -13,6 +13,8 @@ void Ejercicio_3_TiposDeDatos() {
     std::cout << "La variable char tiene un tamaño de: " << sizeof(Letra) << " bytes" << std::endl;
 }
 
+//Se utiliza sizeof como operador para leer la cantidad de bits que maneja cada tipo de dato.
+
 int main() {
     Ejercicio_3_TiposDeDatos();
     return 0;

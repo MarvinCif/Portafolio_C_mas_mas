@@ -8,6 +8,12 @@ void Ejercicio_5_Intercambio_Aritmetico(int *num1,int *num2) {
     *num1 = *num1 - *num2;
 }
 
+/*
+Se realiza el intercambio de los datos de forma matematica.
+Si se quisiera agregar una tercera variable se duplica el proceso al
+tener que realizar dos intercambios.
+*/
+
 int main() {
     int num1 = 5;
     int num2 = 10;

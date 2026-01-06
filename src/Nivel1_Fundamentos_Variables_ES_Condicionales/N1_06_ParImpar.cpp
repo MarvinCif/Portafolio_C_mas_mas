@@ -1,6 +1,6 @@
 #include "N1_06_ParImpar.hpp"
 #include <iostream>
-#include <limits>
+#include <limits> //Se utiliza para limitar el numero de decimales
 #include <cstdlib>
 
 bool Ejercicio_6_ParImpar(long long num) {
