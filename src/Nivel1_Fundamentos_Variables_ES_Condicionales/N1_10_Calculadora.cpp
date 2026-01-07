@@ -1,3 +1,8 @@
+/*
+Enunciado: Operaciones básicas de calculadora (suma, resta, multiplicacion, division).
+Autor: Marvin Cifuentes
+*/
+
 #include "N1_10_Calculadora.hpp"
 #include <iostream>
 

@@ -1,3 +1,8 @@
+/*
+Enunciado: Mostrar "¡Hola Mundo!" en pantalla.
+Autor: Marvin Cifuentes
+*/
+
 #include "N1_01_HolaMundo.hpp"
 #include <iostream> //Biblioteca estandar para entrada y salida.
 

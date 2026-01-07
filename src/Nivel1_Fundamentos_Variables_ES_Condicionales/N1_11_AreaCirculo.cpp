@@ -1,3 +1,8 @@
+/*
+Enunciado: Calcular el área de un círculo dado su radio.
+Autor: Marvin Cifuentes
+*/
+
 #include "N1_11_AreaCirculo.hpp"
 #include <iostream>
 #include <cmath>

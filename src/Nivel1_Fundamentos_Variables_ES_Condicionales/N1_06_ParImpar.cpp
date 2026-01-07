@@ -1,3 +1,8 @@
+/*
+Enunciado: Determinar si un número es par o impar.
+Autor: Marvin Cifuentes
+*/
+
 #include "N1_06_ParImpar.hpp"
 #include <iostream>
 #include <limits> //Se utiliza para limitar el numero de decimales

@@ -1,3 +1,8 @@
+/*
+Enunciado: Mostrar tamaños y ejemplos de distintos tipos de datos.
+Autor: Marvin Cifuentes
+*/
+
 #include "N1_03_TiposDeDatos.hpp"
 #include <iostream>
 

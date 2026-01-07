@@ -1,3 +1,8 @@
+/*
+Enunciado: Pedir dos números e imprimir su suma.
+Autor: Marvin Cifuentes
+*/
+
 #include "N1_02_Suma.hpp"
 #include <iostream>
 

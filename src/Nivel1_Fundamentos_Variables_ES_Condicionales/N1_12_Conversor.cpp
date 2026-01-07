@@ -1,3 +1,8 @@
+/*
+Enunciado: Convertir entre Celsius y Fahrenheit.
+Autor: Marvin Cifuentes
+*/
+
 #include "N1_12_Conversor.hpp"
 #include <iostream>
 #include <iomanip>

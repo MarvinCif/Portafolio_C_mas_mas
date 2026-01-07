@@ -1,3 +1,8 @@
+/*
+Enunciado: Determinar el mayor de dos números.
+Autor: Marvin Cifuentes
+*/
+
 #include "N1_07_Mayor.hpp"
 #include <iostream>
 

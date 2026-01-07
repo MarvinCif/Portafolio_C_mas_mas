@@ -1,3 +1,8 @@
+/*
+Enunciado: Intercambiar dos números usando operaciones XOR.
+Autor: Marvin Cifuentes
+*/
+
 #include "N1_04_Intercambio.hpp"
 #include <iostream>
 
