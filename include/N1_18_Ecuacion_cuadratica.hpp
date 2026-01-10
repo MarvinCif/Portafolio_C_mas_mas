@@ -3,4 +3,9 @@
 
 // Enunciado: Calcular las raíces reales de ax^2 + bx + c = 0.
 // Autor: Marvin Cifuentes
+#include <string_view>
+
+float SolicitarEntrada(std::string_view mensaje);
+void RaizCuadratica(float a, float b, float c);
+
 #endif

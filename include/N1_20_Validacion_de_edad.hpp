@@ -3,4 +3,9 @@
 
 // Enunciado: Determinar si una persona es mayor de edad.
 // Autor: Marvin Cifuentes
+#include <cstddef>
+
+bool MayorEdad(int edad);
+bool EdadRango(int edad);
+
 #endif

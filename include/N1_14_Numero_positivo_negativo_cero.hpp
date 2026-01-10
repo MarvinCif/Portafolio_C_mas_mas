@@ -3,4 +3,8 @@
 
 // Enunciado: Clasificar un número ingresado.
 // Autor: Marvin Cifuentes
+#include <string>
+
+constexpr int PosiNegaCero(int num) noexcept;
+
 #endif

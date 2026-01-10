@@ -53,14 +53,14 @@ Leyenda
 | ☑ | Calculadora simple | `switch` | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_10_Calculadora.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
 | ☑ | Área de un círculo | constantes, `double` | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_11_AreaCirculo.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
 | ☑ | Conversor de temperatura | fórmulas | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_12_Conversor.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
-| ◻ | Verificar vocal | `char`, condicionales | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_13_Verificar_vocal.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
-| ◻ | Número positivo/negativo/cero | rangos | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_14_Numero_positivo_negativo_cero.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
-| ◻ | Días de la semana | `switch` / mapping | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_15_Dias_de_la_semana.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
-| ◻ | Cálculo de descuento | condiciones | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_16_Calculo_de_descuento.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
-| ◻ | Divisibilidad | operadores | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_17_Divisibilidad.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
-| ◻ | Ecuación cuadrática | $ax^2 + bx + c$ | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_18_Ecuacion_cuadratica.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
-| ◻ | ASCII | casts, tabla ASCII | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_19_ASCII.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
-| ◻ | Validación de edad | condicionales | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_20_Validacion_de_edad.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
+| ☑ | Verificar vocal | `char`, condicionales | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_13_Verificar_vocal.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
+| ☑ | Número positivo/negativo/cero | rangos | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_14_Numero_positivo_negativo_cero.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
+| ☑ | Días de la semana | `switch` / mapping | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_15_Dias_de_la_semana.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
+| ☑ | Cálculo de descuento | condiciones | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_16_Calculo_de_descuento.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
+| ☑ | Divisibilidad | operadores | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_17_Divisibilidad.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
+| ☑ | Ecuación cuadrática | $ax^2 + bx + c$ | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_18_Ecuacion_cuadratica.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
+| ☑ | ASCII | casts, tabla ASCII | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_19_ASCII.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
+| ☑ | Validación de edad | condicionales | [View Code](./src/Nivel1_Fundamentos_Variables_ES_Condicionales/N1_20_Validacion_de_edad.cpp) | <a href="https://www.onlinegdb.com/" target="_blank" rel="noopener noreferrer">▶️ Run (GDB)</a> |
 
 </details>
 
