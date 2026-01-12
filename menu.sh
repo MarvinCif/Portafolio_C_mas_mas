@@ -18,6 +18,36 @@ mapfile -t EXERCISES < <(
     done
 )
 
+pretty_group_name() {
+  local group="$1"
+  if [[ "$group" == "Arquitectura" ]]; then
+    echo "Arquitectura"
+    return
+  fi
+
+  # Turn: Nivel1_Foo_Bar -> Nivel 1 - Foo Bar
+  local out="$group"
+  if [[ "$out" =~ ^Nivel([0-9]+)_(.*)$ ]]; then
+    out="Nivel ${BASH_REMATCH[1]} - ${BASH_REMATCH[2]}"
+  fi
+  out="${out//_/ }"
+  echo "$out"
+}
+
+extract_group() {
+  # Inputs are like: ./src/Nivel1_.../X.cpp or ./src/Arquitectura/.../X.cpp
+  local file="$1"
+
+  if [[ "$file" == ./src/Arquitectura/* ]]; then
+    echo "Arquitectura"
+    return
+  fi
+
+  # Group by the first directory under ./src
+  local rest="${file#./src/}"
+  echo "${rest%%/*}"
+}
+
 if ((${#EXERCISES[@]} == 0)); then
   echo "No se encontraron ejercicios ejecutables (archivos .cpp con int main())."
   exit 1
@@ -74,16 +104,52 @@ compile_and_run() {
 
 while true; do
   clear || true
-  echo "=============================="
-  echo " Portafolio-C++ (Codespaces)"
-  echo "=============================="
+  echo "========================================="
+  echo " Portafolio-C++ (menu por niveles)"
+  echo "========================================="
   echo
 
-  for i in "${!EXERCISES[@]}"; do
+  # Build groups
+  declare -A GROUP_FILES
+  declare -a GROUP_KEYS
+  for file in "${EXERCISES[@]}"; do
+    group="$(extract_group "$file")"
+    if [[ -z "${GROUP_FILES[$group]+x}" ]]; then
+      GROUP_KEYS+=("$group")
+      GROUP_FILES["$group"]="$file"
+    else
+      GROUP_FILES["$group"]+=$'\n'"$file"
+    fi
+  done
+
+  # Order: Nivel1..Nivel5 first, then Arquitectura, then anything else.
+  declare -a ORDERED_KEYS
+  for k in "Nivel1" "Nivel2" "Nivel3" "Nivel4" "Nivel5"; do
+    for g in "${GROUP_KEYS[@]}"; do
+      if [[ "$g" == ${k}_* ]]; then
+        ORDERED_KEYS+=("$g")
+      fi
+    done
+  done
+  for g in "${GROUP_KEYS[@]}"; do
+    if [[ "$g" == "Arquitectura" ]]; then
+      ORDERED_KEYS+=("$g")
+    fi
+  done
+  for g in "${GROUP_KEYS[@]}"; do
+    if [[ "$g" != "Arquitectura" && ! "$g" =~ ^Nivel[1-5]_ ]]; then
+      ORDERED_KEYS+=("$g")
+    fi
+  done
+
+  echo "Seleccione un nivel:"
+  echo
+  for i in "${!ORDERED_KEYS[@]}"; do
     idx=$((i + 1))
-    file="${EXERCISES[$i]}"
-    title="$(extract_title "$file")"
-    printf "%2d) %s\n    %s\n" "$idx" "$title" "$file"
+    g="${ORDERED_KEYS[$i]}"
+    # count lines
+    count=$(printf '%s\n' "${GROUP_FILES[$g]}" | sed '/^$/d' | wc -l | tr -d ' ')
+    printf "%2d) %s (%s ejercicios)\n" "$idx" "$(pretty_group_name "$g")" "$count"
   done
 
   echo
@@ -97,10 +163,45 @@ while true; do
     exit 0
   fi
 
-  if [[ "$choice" =~ ^[0-9]+$ ]] && (( choice >= 1 && choice <= ${#EXERCISES[@]} )); then
-    compile_and_run "${EXERCISES[$((choice - 1))]}"
-  else
+  if ! [[ "$choice" =~ ^[0-9]+$ ]] || (( choice < 1 || choice > ${#ORDERED_KEYS[@]} )); then
     echo "Opcion invalida."
     read -r -p "Presione Enter para continuar..." _
+    continue
   fi
+
+  selected_group="${ORDERED_KEYS[$((choice - 1))]}"
+  mapfile -t LEVEL_EXERCISES < <(printf '%s\n' "${GROUP_FILES[$selected_group]}" | sed '/^$/d')
+
+  while true; do
+    clear || true
+    echo "========================================="
+    echo " $(pretty_group_name "$selected_group")"
+    echo "========================================="
+    echo
+
+    for i in "${!LEVEL_EXERCISES[@]}"; do
+      idx=$((i + 1))
+      file="${LEVEL_EXERCISES[$i]}"
+      title="$(extract_title "$file")"
+      # show a shorter location
+      short="${file#./src/}"
+      printf "%2d) %s\n    %s\n" "$idx" "$title" "$short"
+    done
+
+    echo
+    echo " 0) Volver"
+    echo
+    read -r -p "Seleccione un ejercicio: " ex_choice
+
+    if [[ "$ex_choice" == "0" ]]; then
+      break
+    fi
+
+    if [[ "$ex_choice" =~ ^[0-9]+$ ]] && (( ex_choice >= 1 && ex_choice <= ${#LEVEL_EXERCISES[@]} )); then
+      compile_and_run "${LEVEL_EXERCISES[$((ex_choice - 1))]}"
+    else
+      echo "Opcion invalida."
+      read -r -p "Presione Enter para continuar..." _
+    fi
+  done
 done

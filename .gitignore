@@ -1,0 +1,44 @@
+# Build output
+/build/
+/build-*/
+/run_app
+
+# CMake
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/compile_commands.json
+
+# Compiler artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Debug symbols
+*.dSYM/
+*.pdb
+*.ilk
+
+# IDE/editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+*.tmp
+.cache/
+
+
+subir_portafolio.sh
