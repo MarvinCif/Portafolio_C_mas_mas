@@ -1,6 +1,7 @@
 # Build output
 /build/
 /build-*/
+/output/
 /run_app
 
 # CMake

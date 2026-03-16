@@ -7,19 +7,17 @@ Autor: Marvin Cifuentes
 #include <limits>
 
 long long NumeroInvertido(long long num){
-    if(num == 0) return 0;
-    long long sigBit = ((num >> 31) & 0x1) ? -1 : 1;
-    long long n = num;
-    if(n < 0) n = -n;
+    long long signo = num >> 63;
+    long long n = (num ^ signo) - signo;
     long long rev = 0;
+
     while(n > 0){
-        rev = rev * 10 + (n % 10);
+        rev = (rev << 3) + (rev << 1);
+        rev = rev + (n % 10);         
         n /= 10;
     }
-    rev *= sigBit;
-    return static_cast<int>(rev);
+    return (rev ^ signo) - signo;
 }
-
 
 int main(){
     long long num = 0;
@@ -27,12 +25,15 @@ int main(){
     while(true){
         std::cout << "IMPRIMIR AL REVES UN NUMERO" << std::endl;
         std::cout << "Ingrese un numero: ";
-        if(!(std::cin>>num)){
-            std::cout<<"El valor ingresado no corresponde a un numero, ingrese un entero de manera correcta." << std::endl;
+        
+        // Validación robusta de entrada
+        if(!(std::cin >> num)){
+            std::cout << "El valor ingresado no corresponde a un numero, ingrese un entero de manera correcta.\n\n";
             std::cin.clear();
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             continue;
         }
+        
         std::cout << "El numero " << num << " al revés se observa como: " << NumeroInvertido(num) << std::endl;
         break;
     }
