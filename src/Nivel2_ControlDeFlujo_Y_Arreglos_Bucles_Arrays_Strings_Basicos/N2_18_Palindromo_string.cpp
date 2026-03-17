@@ -2,6 +2,7 @@
 Enunciado: Verificar si una palabra se lee igual al revés.
 Autor: Marvin Cifuentes
 */
+//Funciona solo con palabras, no reconoce espacios.
 
 #include <iostream>
 #include <string>
