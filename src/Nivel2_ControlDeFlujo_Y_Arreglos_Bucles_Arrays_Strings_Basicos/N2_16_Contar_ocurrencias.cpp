@@ -9,7 +9,7 @@ Autor: Marvin Cifuentes
 
 constexpr int max_nums = 200;
 
-int contar_arreglo(std::array<int,max_nums> &arreglo, int valor_buscado){
+int contar_arreglo(const std::array<int,max_nums> &arreglo, int valor_buscado){
     int contador = 0;
     for (int i = 0; i < max_nums; i++){
         if(arreglo[i] == valor_buscado){

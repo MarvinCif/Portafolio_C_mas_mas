@@ -9,7 +9,7 @@ Autor: Marvin Cifuentes
 
 constexpr int max_nums = 30;
 
-void busqueda_numero(std::array<int,max_nums> &array, int valor_buscado){
+void busqueda_numero(const std::array<int,max_nums> &array, int valor_buscado){
     for(int i = 0; i<max_nums;i++){
         if(array[i]==valor_buscado){
             std::cout << "El valor " << valor_buscado << " se encuentra en el arreglo en la posicion " << i << std::endl;
